@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ensure Light With AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500|Roboto:400,500,700&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'>
+    <link rel="stylesheet" href="static\css\about.css">
+<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Design and content inspired from Giulio Cuscito :- https://dribbble.com/shots/7129691--Blue-Planet-Carousel-Concept -->
+
+    <link  href="static\css\about.css" rel="stylesheet">
+
+
+<header class='c-header'>
+
+      <img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRvm6gj_4VIqWM5M3R_uU3IpAxL4lbKvc8T6wq5urSxP9lWDZmZ"
+            alt="Ensure Light with Ai" width="100" height="75"
+            style="
+    border-left-width: 100px;
+    padding-left: 50px;
+    width: 75px;
+    height: 25px;
+">
+
+  <nav class='c-navigation'>
+    <ul class='c-navigation__list'>
+      <li class='c-navigation__list-item'>
+        <a href='\' title=''>Home</a></li>
+      <li class='c-navigation__list-item c-navigation__list-item--active'>
+        <a href='\about' title=''>About</a></li>
+      
+    </ul>
+  </nav>
+  
+</header>
+
+<!-- <div class='c-socials'>
+  <ul class='c-socials__list'>
+    <li class='c-socials__list-item'><a href='' title=''><svg height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="M3 24h9v-8.25H9V12h3V9c0-2.486 2.014-4.5 4.5-4.5h3v3.75H18c-.828 0-1.5-.078-1.5.75v3h3.75l-1.5 3.75H16.5V24H21c1.654 0 3-1.346 3-3V3c0-1.655-1.346-3-3-3H3C1.345 0 0 1.345 0 3v18c0 1.654 1.345 3 3 3z"/></svg></a></li>
+    <li class='c-socials__list-item'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/></svg>
+      <a href='' title=''></a>
+    </li>
+    <li class='c-socials__list-item'><a href='' title=''><svg height="512pt" viewBox="0 0 512 512.00006" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="M261.039062 512c-1.695312 0-3.390624 0-5.097656-.007812-40.132812.097656-77.214844-.921876-113.277344-3.117188-33.0625-2.011719-63.242187-13.4375-87.28125-33.039062-23.195312-18.914063-39.035156-44.488282-47.078124-76.003907-7-27.4375-7.371094-54.371093-7.726563-80.421875C.320312 300.71875.0546875 278.570312 0 256.046875c.0546875-22.617187.320312-44.765625.578125-63.457031.355469-26.046875.726563-52.980469 7.726563-80.421875C16.347656 80.652344 32.1875 55.078125 55.382812 36.164062 79.421875 16.5625 109.601562 5.136719 142.667969 3.125 178.730469.933594 215.820312-.0898438 256.039062.0078125 296.183594-.078125 333.253906.933594 369.316406 3.125c33.0625 2.011719 63.242188 13.4375 87.28125 33.039062 23.199219 18.914063 39.035156 44.488282 47.078125 76.003907 7 27.4375 7.371094 54.375 7.726563 80.421875.257812 18.691406.527344 40.839844.578125 63.363281v.09375c-.050781 22.523437-.320313 44.671875-.578125 63.363281-.355469 26.046875-.722656 52.980469-7.726563 80.421875-8.042969 31.515625-23.878906 57.089844-47.078125 76.003907-24.039062 19.601562-54.21875 31.027343-87.28125 33.039062C334.78125 510.976562 299.304688 512 261.039062 512zm-5.097656-40.007812c39.480469.09375 75.730469-.902344 110.945313-3.042969 25-1.519531 46.675781-9.632813 64.433593-24.113281 16.414063-13.386719 27.71875-31.855469 33.597657-54.894532 5.828125-22.839844 6.164062-47.363281 6.488281-71.078125.253906-18.566406.519531-40.558593.574219-62.863281-.054688-22.308594-.320313-44.296875-.574219-62.863281-.324219-23.714844-.660156-48.238281-6.488281-71.082031-5.878907-23.039063-17.183594-41.507813-33.597657-54.894532-17.757812-14.476562-39.433593-22.589844-64.433593-24.109375-35.214844-2.144531-71.464844-3.132812-110.851563-3.046875-39.472656-.09375-75.726562.902344-110.941406 3.046875-25 1.519531-46.675781 9.632813-64.433594 24.109375-16.414062 13.386719-27.71875 31.855469-33.597656 54.894532-5.828125 22.84375-6.164062 47.363281-6.488281 71.082031-.253907 18.582031-.519531 40.585937-.574219 62.910156.054688 22.226563.320312 44.234375.574219 62.816406.324219 23.714844.660156 48.238281 6.488281 71.078125 5.878906 23.039063 17.183594 41.507813 33.597656 54.894532 17.757813 14.476562 39.433594 22.589843 64.433594 24.109374 35.214844 2.144532 71.476562 3.144532 110.847656 3.046876zM254.988281 381c-68.921875 0-125-56.074219-125-125s56.078125-125 125-125c68.925781 0 125 56.074219 125 125s-56.074219 125-125 125zm0-210c-46.867187 0-85 38.132812-85 85s38.132813 85 85 85c46.871094 0 85-38.132812 85-85s-38.128906-85-85-85zm139-80c-16.566406 0-30 13.429688-30 30s13.433594 30 30 30c16.570313 0 30-13.429688 30-30s-13.429687-30-30-30zm0 0"/></svg></a></li>
+  </ul>
+</div> -->
+
+<section class='c-slider'>
+  <div class='c-slider-init'>
+
+    <div class='c-slide' style='background-image:url("/static/images/startup-594090.jpg")'>
+      <div class='c-slide-content'>
+        <div class='c-wrap c-wrap--line'>
+          <h2 class='c-slide__title'>
+            About
+            
+          </h2>
+        </div>
+        <div class='c-wrap c-wrap--small'>
+          <div class='c-slide__info'>
+            <!-- <h3 class='c-slide__subtitle'>My Team</h3> -->
+            <p class='c-slide__body'>
+              <!-- <ul style ="text-decoration: None;
+    font-family: Poppins, sans-serif;
+        position: relative;
+          font-size: 1em;
+          color: rgb(155, 142, 142);
+          text-transform: uppercase;
+          letter-spacing: 0.5em;
+          text-decoration: none;">
+          
+              <li>Shubhanshu Mishra <br>
+              Tushar Rahangdale <br>
+               Sourabh Dhakkad <br>
+              Shruti Vyas </li>
+              </ul> -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='c-slide'
+      style='background-image:url("/static/images/smilies-3298337.jpg")'>
+      <div class='c-slide-content'>
+        <div class='c-wrap c-wrap--line'>
+          <h2 class='c-slide__title'>
+            Shubhanshu Mishra
+          
+          </h2>
+        </div>
+        <div class='c-wrap c-wrap--small'>
+          <div class='c-slide__info'>
+            <h3 class='c-slide__subtitle'>My Introduction</h3>
+            <p class='c-slide__body' >Hello, I'm Shubhanshu Mishra, an engineering student interested in becoming a full-stack web developer. I believe in
+            having a broad knowledge base in engineering to tackle diverse challenges. Currently studying at IPS Academy with a
+            Bachelor's degree from the Institute of Engineering & Science, IPS Academy, Indore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='c-slide'
+    
+      style = "background-image: url('/static/images/books-1177178_1280.jpg')">
+      <div class='c-slide-content'>
+        <div class='c-wrap c-wrap--line'>
+          <h2 class='c-slide__title'>
+            Tushar Rahangdale
+    
+          </h2>
+        </div>
+        <div class='c-wrap c-wrap--small'>
+          <div class='c-slide__info'>
+            <h3 class='c-slide__subtitle'>My Introduction</h3>
+            <p class='c-slide__body'>Hello, I'm Tushar Rahangdale, an engineering student interested in becoming a
+              full-stack web developer. I believe in
+              having a broad knowledge base in engineering to tackle diverse challenges. Currently studying at IPS Academy
+              with a
+              Bachelor's degree from the Institute of Engineering & Science, IPS Academy, Indore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='c-slide'
+      style='background-image:url("/static/images/bullying-3362025.jpg")'>
+      <div class='c-slide-content'>
+        <div class='c-wrap c-wrap--line'>
+          <h2 class='c-slide__title'>
+            Sourabh Dhakkad
+    
+          </h2>
+        </div>
+        <div class='c-wrap c-wrap--small'>
+          <div class='c-slide__info'>
+            <h3 class='c-slide__subtitle'>My Introduction</h3>
+            <p class='c-slide__body'>Hello, I'm Sourabh Dhakkad, an engineering student interested in becoming a
+              full-stack web developer. I believe in
+              having a broad knowledge base in engineering to tackle diverse challenges. Currently studying at IPS Academy
+              with a
+              Bachelor's degree from the Institute of Engineering & Science, IPS Academy, Indore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class='c-slide'
+      style='background-image:url("/static/images/hand-1006417.png")'>
+      <div class='c-slide-content'>
+        <div class='c-wrap c-wrap--line'>
+          <h2 class='c-slide__title'>
+            Shruti Vyas 
+    
+          </h2>
+        </div>
+        <div class='c-wrap c-wrap--small'>
+          <div class='c-slide__info'>
+            <h3 class='c-slide__subtitle'>My Introduction</h3>
+            <p class='c-slide__body'>Hello, I'm Shruti Vyas, an engineering student interested in becoming a
+              full-stack web developer. I believe in
+              having a broad knowledge base in engineering to tackle diverse challenges. Currently studying at IPS Academy
+              with a
+              Bachelor's degree from the Institute of Engineering & Science, IPS Academy, Indore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://rawgit.com/cfoehrdes/slick/master/slick/slick.js'></script>
+<script  src="static\js\about.js"></script>
+
+
+</body>
+</html>

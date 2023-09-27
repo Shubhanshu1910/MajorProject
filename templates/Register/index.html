@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+						initial-scale=1.0">
+    <title>Ensure Light With AI</title>
+    <link rel="stylesheet" href="static\css\register.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+</head>
+
+<body style = "background-image: url('/static/images/stars-1654074.jpg')">
+     <link  href="static\css\register.css" rel="stylesheet">
+    <header>
+        <!-- <a href="#" class="logo">S</a> -->
+<img src="https://t0.gstatic.com/images?q=tbn:ANd9GcRvm6gj_4VIqWM5M3R_uU3IpAxL4lbKvc8T6wq5urSxP9lWDZmZ"
+            alt="Ensure Light with Ai" width="100" height="75"
+            style="
+    border-left-width: 100px;
+    padding-left: 50px;
+    width: 25px;
+    height: 25px;
+">
+        <div class="group">
+            <ul class="navigation">
+    
+                <li><a href="\">Home</a></li>
+                <li><a
+                        href="\about">About</a>
+                </li>
+                <li><a href="#">
+                        <div class="dropdown">
+                            Service
+                            <div class="dropdown-content" style="width: 200px;height: 200px;">
+    
+                                <a href="#">
+                                    <p>Road damage</p>
+                                </a>
+                                <a href="#">
+                                    <p>Garbage</p>
+                                </a>
+                                <a href="#">
+                                    <p>Electricity issue</p>
+                                </a>
+                                <a href="#">
+                                    <p>Other...</p>
+                                </a>
+                            </div>
+    
+                        </div>
+                    </a></li>
+    
+                <li><a href="#">
+                        <div class="dropdown">
+                            Try it
+                            <div class="dropdown-content" style="width:10px;">
+    
+                                <a href="\login">
+                                    <p>Login</p>
+                                </a>
+                                <a href="\register">
+                                    <p>Register</p>
+                                </a>
+    
+                            </div>
+    
+                        </div>
+                    </a></li>
+    
+                <li><a href="\contact">Contact</a></li>
+    
+    
+    
+    
+    
+            </ul>
+            <!-- <div class="search">
+                <span class="icon">
+                    <ion-icon name="search" class="searchbtn"></ion-icon>
+                    <ion-icon name="close" class="closebtn"></ion-icon>
+                </span>
+            </div> -->
+            <!-- <ion-icon name="menu-outline" class="menuToggle"></ion-icon> -->
+        <!-- </div> -->
+        <!-- <div class="searchbox">
+            <input type="text" placeholder="Search here...">
+        </div> -->
+    </header>
+
+    <!-- container div -->
+    <div class="container">
+
+        <!-- upper button section to select
+			the login or signup form -->
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+
+        <!-- Form section that contains the
+			login and the signup form -->
+        <div class="form-section">
+
+            <!-- login form -->
+            <div class="login-box">
+                <input type="email" class="email ele" placeholder="youremail@email.com">
+                <input type="password" class="password ele" placeholder="password">
+                <button class="clkbtn">Login</button>
+            </div>
+
+            <!-- signup form -->
+            <div class="signup-box">
+                <input type="text" class="name ele" placeholder="Enter your name">
+                <input type="email" class="email ele" placeholder="youremail@email.com">
+                <input type="password" class="password ele" placeholder="password">
+                <input type="password" class="password ele" placeholder="Confirm password">
+                <button class="clkbtn">Signup</button>
+            </div>
+        </div>
+    </div>
+    <script >         
+        let signup = document.querySelector(".signup");
+        let login = document.querySelector(".login");
+        let slider = document.querySelector(".slider");
+        let formSection = document.querySelector(".form-section");
+
+        signup.addEventListener("click", () => {
+            slider.classList.add("moveslider");
+            formSection.classList.add("form-section-move");
+        });
+
+        login.addEventListener("click", () => {
+            slider.classList.remove("moveslider");
+            formSection.classList.remove("form-section-move");
+        });</script>
+</body>
+
+</html>
